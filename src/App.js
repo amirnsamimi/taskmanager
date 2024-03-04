@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/TaskCard
 function App() {
   return (
     <div className="App">
