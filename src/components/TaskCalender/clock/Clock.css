@@ -1,0 +1,33 @@
+.cal-col{
+    display: flex;
+    justify-content: right;
+} 
+
+
+
+.calender {
+    width: 400px;
+    overflow: scroll;
+    text-wrap: nowrap;
+    height: 100%;
+    display: flex;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.calender div {
+    padding-right: 50px;
+    padding-left: 8px;
+    height: 270px;
+    border-left: 1px solid;
+    padding-top: 3px;
+}
+
+table, th, td {
+    border-left: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
