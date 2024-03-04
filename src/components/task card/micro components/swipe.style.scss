@@ -1,0 +1,67 @@
+$color-white: #FEFEFE;
+$color-pink: #F689A9;
+$color-green: #5BB864;
+$color-orange: #FFAE1A;
+$color-black: #010000;
+@keyframes glow {
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.forallswipe {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #FEFEFE;
+    :first-child{
+        background-color: $color-green;
+        border-radius: 35%;
+        width: 50px;
+        height: 50px;
+        border: white solid 3.5px;
+        box-shadow: 0px 0px 5px 2px rgba(182, 182, 182, 0.75);
+    }
+    p {
+        position: relative;
+        overflow: hidden;
+        padding-left: 20px;
+        color: #010000;
+        &:after {
+            content: '';
+            width: 20%;
+            height: 100%;
+            position: absolute;
+            right: auto;
+            top: 0;
+            bottom: 0;
+            left: -20%;
+            background-image: 
+              linear-gradient(135deg, 
+                rgba(248, 240, 240, 0),
+                rgba(255, 255, 255, 0.8),
+                rgba(253, 252, 254, 0)
+              );
+          }
+            
+            &:after {
+            transition: all 1s ease-out ;
+            animation: glow 1.5s infinite;
+            //   left: 100%;
+            }
+          
+ 
+
+    }
+
+}

@@ -1,0 +1,36 @@
+$color-white: #FEFEFE;
+$color-pink: #F689A9;
+$color-green: #5BB864;
+$color-orange: #FFAE1A;
+$color-black: #010000;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.forallpeople {
+    display: flex;
+    padding: 10px;
+    gap: 7px;
+    * {
+        border-radius: 20px;
+        width: 50px;
+        height: 52px;
+        border: solid white 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.orangebg {
+    background-color: $color-orange;
+}
+.pinkbg {
+    background-color: $color-pink;
+}
+.bluebg {
+    background-color: rgb(115, 165, 202);
+}
+.greenbg {
+    background-color: rgb(118, 249, 118);
+}

@@ -1,0 +1,49 @@
+$color-white: #FEFEFE;
+$color-pink: #F689A9;
+$color-green: #5BB864;
+$color-orange: #FFAE1A;
+$color-black: #010000;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.forallcard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: $color-green;
+    border-radius: 20px;
+    color: $color-white;
+    padding:30px 20px 20px 20px;
+
+    h2 {
+        padding-bottom: 20px;
+    }
+}
+.badge {
+    background-color: #7fc285;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 3px;
+}
+.calendar {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    * {
+        display: flex;
+        align-items: center;
+        padding: 0 5px;
+    }
+}
+.feature {
+    background-color: #373737a8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
