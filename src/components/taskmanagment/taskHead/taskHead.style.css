@@ -1,0 +1,14 @@
+.task-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.task-head .add{
+    display: flex;
+    align-items: center;
+    color: green;
+    cursor: pointer;
+}
+.task-head .add .icon{
+    font-size: 12px;
+}

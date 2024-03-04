@@ -1,0 +1,21 @@
+.search {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(173, 171, 171);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  overflow: hidden;
+  margin-top: 35px;
+}
+.search input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+.search .icon {
+  font-size: 20px;
+}
