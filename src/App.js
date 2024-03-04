@@ -1,9 +1,9 @@
-import Reportwidgct from "./components/Reportwidgct/Reportwidgct"
+import Reportwidget from "./components/Reportwidgct/Reportwidget"
 
 function App() {
   return (
     <div className="App">
-      <Reportwidgct />
+      <Reportwidget />
     </div>
   );
 }

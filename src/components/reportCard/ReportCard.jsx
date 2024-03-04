@@ -5,7 +5,7 @@ const ReportCard = ({icon,variable,amount}) => {
     <div className='ReportCard'>
     {icon}
     <p>{amount} <br />{variable}</p>
-    {/* <p>{variable}</p> */}
+   
 </div>
   )
 }

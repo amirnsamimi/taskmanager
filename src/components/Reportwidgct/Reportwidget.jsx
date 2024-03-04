@@ -1,5 +1,5 @@
 import React from "react";
-import "./Reportwidgct.css";
+import "./Reportwidget.css";
 import ReportCard from "../reportCard/ReportCard";
 import { AccessAlarm, Done, MonetizationOn } from "@mui/icons-material";
 
