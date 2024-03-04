@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -10,6 +11,14 @@ function App() {
     </div>
   );
 
+=======
+import Taskmanagments from "./components/taskmanagment/Taskmanagments";
+
+function App() {
+  return <div className="App">
+    <Taskmanagments/>
+  </div>;
+>>>>>>> TaskManagment
 }
 
 export default App;
