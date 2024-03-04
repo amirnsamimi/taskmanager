@@ -1,0 +1,22 @@
+.Reportwidget {
+    background-color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.buttom-div {
+    background-color: darkgray;
+    width: 234px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+.buttom-div svg {
+    border: 24px solid #5BB864;
+    border-radius: 5px;
+    background-color: white;
+}
+.buttom-div p {
+    padding-left: 5px;
+}
