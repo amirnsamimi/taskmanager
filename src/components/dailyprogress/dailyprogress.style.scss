@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gradient {
+    width: 400px;
+    height: 400px;
+    background-image: url("../../assets/img/svg1.svg");
+    background-position: center;
+    position: absolute; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forcolor {
+    background-image: linear-gradient( to bottom, rgb(108, 252, 132) 0%, rgb(245, 247, 245) 100%); 
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    border-radius: 50%;
+
+}
+.forcontent {
+    position: relative; 
+    width: 340px; 
+    height: 340px; 
+    border-radius: 50%; 
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    :first-child{
+        font-size: 28px;
+    }
+    :last-child{
+        font-size: 25px;
+
+    }
+}
