@@ -3,7 +3,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import "./profile.style.scss"
 const Profile = ({fullName,userName}) => {
 
-  
+  //profile comp
 
   return (
     <div className='forall'>    
