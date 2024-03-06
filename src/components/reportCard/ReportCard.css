@@ -1,0 +1,9 @@
+.ReportCard {
+    background-color: antiquewhite;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.ReportCard svg {
+    color: cornflowerblue;
+}
