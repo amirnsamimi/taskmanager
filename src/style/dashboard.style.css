@@ -4,3 +4,8 @@
     width: 100dvw;
     padding:1.5rem;
 }
+
+.dashboard-taskcard{
+    display: flex;
+    gap:10px;
+}
