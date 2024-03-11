@@ -17,8 +17,8 @@
     border-radius: 20px;
     border: solid 5px whitesmoke;
     box-shadow: 1px 1px 21px 1px rgba(0,0,0,0.75);
-    width: 150px;
-    aspect-ratio: 1/1;
+    width: 110px;
+    height: 80px;
     :first-child {
       color: rgb(131, 117, 74);
       width: 60px;
@@ -30,4 +30,9 @@
     width: 100%;
     height: 100%;
   }
-  
+  .fortxt h1 {
+    font-size: 20px;
+  }
+  .fortxt h2 {
+    font-size: 18px;
+  }

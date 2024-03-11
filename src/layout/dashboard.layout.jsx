@@ -16,11 +16,11 @@ let date = new Intl.DateTimeFormat('fa-IR').format(new Date());
 
 return(
 <div className="dashboard-container">
-<div><Profile fullName="sajjad khodabiamorz" userName="sajjad1379" />
+<div className="firstlay"><Profile fullName="sajjad khodabiamorz" userName="sajjad1379" />
 <Menu /><Reportwidget />
 </div>
 <div><div className="dashboard-taskcard"><TaskCard todaydate={date} idbadge={"sajjad"} hours={24} input={<People />} /><TaskCard todaydate={date} idbadge={"sajjad"} hours={24} input={<Swipe  />} /></div><Taskmanagments /></div>
-<div><Dailyprogress /></div>
+<div className="dailypro"><Dailyprogress /></div>
 </div>
 )
 }

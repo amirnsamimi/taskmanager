@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .gradient {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     background-image: url("../../assets/img/svg1.svg");
     background-position: center;
     position: absolute; 
@@ -16,16 +16,16 @@
 }
 .forcolor {
     background-image: linear-gradient( to bottom, rgb(108, 252, 132) 0%, rgb(245, 247, 245) 100%); 
-    width: 350px;
-    height: 350px;
+    width: 190px;
+    height: 190px;
     position: absolute;
     border-radius: 50%;
 
 }
 .forcontent {
     position: relative; 
-    width: 340px; 
-    height: 340px; 
+    width: 180px; 
+    height: 180px; 
     border-radius: 50%; 
     background: #ffffff;
     display: flex;
